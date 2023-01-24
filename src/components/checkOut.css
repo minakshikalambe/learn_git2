@@ -1,0 +1,32 @@
+.checkContainer{
+    /* border: 1px solid red; */
+    width: 1250px;
+    margin: auto;
+}
+.checkPageBody{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:40px;
+}
+.checkCard{
+    border: 1px solid black; 
+}
+.checkimg{
+    width: 60%;
+    margin: auto;
+    height:70%;
+    border: 1px solid black;
+    margin-top:10%;
+}
+.cartimg>img{
+    height: 100%;
+    width: 100%;
+}
+.removeButton{
+    background-color: teal;
+}
+.checkOutButton{
+    background-color: teal;
+}

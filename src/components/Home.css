@@ -1,0 +1,39 @@
+.homeContainer{
+    /* border: 1px solid red; */
+    width: 1250px;
+    margin: auto;
+}
+.navbar{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.loginDiv{
+    border: 1px solid rgb(29, 54, 54);
+    
+    background-color: teal;
+}
+.homeBody{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+}
+.gameCard{
+    border: 1px solid black;
+}
+.imgDiv{
+    width: 80%;
+    margin: auto;
+    height:60%;
+    border: 1px solid black;
+    margin-top:10%;
+}
+.imgDiv>img{
+    height: 100%;
+    width: 100%;
+}
+.addcart{
+    background-color: teal;
+    margin-top: 30px;
+}
